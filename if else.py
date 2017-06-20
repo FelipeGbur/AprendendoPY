@@ -1,8 +1,9 @@
-#Corrigir Código
-acao = int(input("Digite o Número 1 para SIM ou 2 para NÃO "))
+acao = int(input("Digite '1' para sim, '2' para não:"))
 if(acao == 1):
-    print("você disse que SIM")
-if(acao == 2):
-    print("você disse que NÃO")
-    if(acao != 1 or 2 ):
-        print("Numero Invalido"
+    print("Você disse que sim")
+else:
+    if(acao == 2):
+        print("você disse que não")
+    else:
+        print("Nlumero Invalido")
+#ToDo: o que deve ser feito
